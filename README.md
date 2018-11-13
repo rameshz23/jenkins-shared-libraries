@@ -32,7 +32,7 @@ The declarative way to include libraries is the following.
 
 ```
 libraries {
-    lib('github.com/cfpb/jenkins-shared-libraries')
+    lib('github.com/rameshz23/jenkins-shared-libraries')
 }
 ```
 
@@ -54,7 +54,7 @@ pipeline {
     agent { label "master" }
 
     libraries {
-        lib('github.com/cfpb/jenkins-shared-libraries')
+        lib('github.com/rameshz23/jenkins-shared-libraries')
     }
 
     stages {
